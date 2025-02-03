@@ -35,7 +35,7 @@ export default function solicitud_bordado() {
 
       {/* Prenda */}
       <View style={styles.formRow}>
-        <Text style={styles.label}>Prendas a bordas:</Text>
+        <Text style={styles.label}>Prendas a bordar:</Text>
         <TextInput
           style={styles.input}
           placeholder="Prenda"
