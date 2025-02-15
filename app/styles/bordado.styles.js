@@ -73,14 +73,89 @@ export const styles = StyleSheet.create({
     borderRadius: 4,
     alignItems: 'center',
   },
-
   submitButtonText: {
     color: 'white',
-
   },
   doubleColumnRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginBottom: 10,
   },
+  
+
+  listItem: {
+    padding: 16,
+    borderRadius: 8,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  listText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#2c3e50',
+    marginBottom: 4,
+  },
+  listSubText: {
+    fontSize: 14,
+    color: '#7f8c8d',
+    fontWeight: '500',
+  },
+  itemUrgente: {
+  backgroundColor: '#ffebee', // Rojo claro
+  borderLeftWidth: 6,
+  borderLeftColor: '#d32f2f', // Rojo oscuro
+  },
+  itemPendiente: {
+    backgroundColor: '#fff3e0', // Amarillo claro
+    borderLeftWidth: 6,
+    borderLeftColor: '#f57c00', // Amarillo oscuro
+  },
+  itemNormal: {
+    backgroundColor: '#e8f5e9', // Verde claro
+    borderLeftWidth: 6,
+    borderLeftColor: '#43a047', // Verde oscuro
+  },
+  itemHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 5,
+  },
+  urgencyBadge: {
+  paddingHorizontal: 10,
+  paddingVertical: 4,
+  borderRadius: 15,
+  marginBottom: 10,
+  alignSelf: 'flex-start',
+},
+quantityContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 15,
+    gap: 10,
+  },
+  quantityButton: {
+    flex: 1,
+    padding: 12,
+    borderRadius: 8,
+    backgroundColor: '#ecf0f1',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#bdc3c7',
+  },
+  activeQuantityButton: {
+    backgroundColor: '#3498db',
+    borderColor: '#2980b9',
+  },
+  quantityButtonText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#2c3e50',
+  },
 });
+
+export default styles;
